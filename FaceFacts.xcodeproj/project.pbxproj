@@ -11,6 +11,8 @@
 		BA786EB82BFEBC8A00FA9B9F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA786EB72BFEBC8A00FA9B9F /* ContentView.swift */; };
 		BA786EBA2BFEBC8B00FA9B9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA786EB92BFEBC8B00FA9B9F /* Assets.xcassets */; };
 		BA786EBD2BFEBC8B00FA9B9F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA786EBC2BFEBC8B00FA9B9F /* Preview Assets.xcassets */; };
+		BA786EC42BFEBD6500FA9B9F /* EditPersonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA786EC32BFEBD6500FA9B9F /* EditPersonView.swift */; };
+		BA786EC62BFEBD7E00FA9B9F /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA786EC52BFEBD7E00FA9B9F /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		BA786EB72BFEBC8A00FA9B9F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BA786EB92BFEBC8B00FA9B9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA786EBC2BFEBC8B00FA9B9F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BA786EC32BFEBD6500FA9B9F /* EditPersonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPersonView.swift; sourceTree = "<group>"; };
+		BA786EC52BFEBD7E00FA9B9F /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				BA786EB52BFEBC8A00FA9B9F /* FaceFactsApp.swift */,
 				BA786EB72BFEBC8A00FA9B9F /* ContentView.swift */,
+				BA786EC32BFEBD6500FA9B9F /* EditPersonView.swift */,
+				BA786EC52BFEBD7E00FA9B9F /* Person.swift */,
 				BA786EB92BFEBC8B00FA9B9F /* Assets.xcassets */,
 				BA786EBB2BFEBC8B00FA9B9F /* Preview Content */,
 			);
@@ -139,6 +145,8 @@
 			files = (
 				BA786EB82BFEBC8A00FA9B9F /* ContentView.swift in Sources */,
 				BA786EB62BFEBC8A00FA9B9F /* FaceFactsApp.swift in Sources */,
+				BA786EC62BFEBD7E00FA9B9F /* Person.swift in Sources */,
+				BA786EC42BFEBD6500FA9B9F /* EditPersonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
