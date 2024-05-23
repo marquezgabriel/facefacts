@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA456F9A2BFFACA7001F680B /* PeopleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA456F992BFFACA7001F680B /* PeopleView.swift */; };
 		BA786EB62BFEBC8A00FA9B9F /* FaceFactsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA786EB52BFEBC8A00FA9B9F /* FaceFactsApp.swift */; };
 		BA786EB82BFEBC8A00FA9B9F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA786EB72BFEBC8A00FA9B9F /* ContentView.swift */; };
 		BA786EBA2BFEBC8B00FA9B9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA786EB92BFEBC8B00FA9B9F /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BA456F992BFFACA7001F680B /* PeopleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleView.swift; sourceTree = "<group>"; };
 		BA786EB22BFEBC8A00FA9B9F /* FaceFacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceFacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA786EB52BFEBC8A00FA9B9F /* FaceFactsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceFactsApp.swift; sourceTree = "<group>"; };
 		BA786EB72BFEBC8A00FA9B9F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 			children = (
 				BA786EB52BFEBC8A00FA9B9F /* FaceFactsApp.swift */,
 				BA786EB72BFEBC8A00FA9B9F /* ContentView.swift */,
+				BA456F992BFFACA7001F680B /* PeopleView.swift */,
 				BA786EC32BFEBD6500FA9B9F /* EditPersonView.swift */,
 				BA786EC52BFEBD7E00FA9B9F /* Person.swift */,
 				BA786EB92BFEBC8B00FA9B9F /* Assets.xcassets */,
@@ -144,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA786EB82BFEBC8A00FA9B9F /* ContentView.swift in Sources */,
+				BA456F9A2BFFACA7001F680B /* PeopleView.swift in Sources */,
 				BA786EB62BFEBC8A00FA9B9F /* FaceFactsApp.swift in Sources */,
 				BA786EC62BFEBD7E00FA9B9F /* Person.swift in Sources */,
 				BA786EC42BFEBD6500FA9B9F /* EditPersonView.swift in Sources */,

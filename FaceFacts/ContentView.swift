@@ -11,24 +11,20 @@ import SwiftUI
 struct ContentView: View {
     @Environment(\.modelContext) var modelContext
     @State private var path = [Person]()
-    @Query var people: [Person]
+    
+    @State private var searchText = ""
     
     var body: some View {
         NavigationStack(path: $path) {
-            List {
-                ForEach(people) { person in
-                    NavigationLink(value: person) {
-                        Text(person.name)
-                    }
+            PeopleView(searchString: searchText)
+                .navigationTitle("FaceFacts")
+                .navigationDestination(for: Person.self) { person in
+                    EditPersonView(person: person)
                 }
-            }
-            .navigationTitle("FaceFacts")
-            .navigationDestination(for: Person.self) { person in
-                EditPersonView(person: person)
-            }
-            .toolbar {
-                Button("Add person", systemImage: "plus", action: addPerson)
-            }
+                .toolbar {
+                    Button("Add person", systemImage: "plus", action: addPerson)
+                }
+                .searchable(text: $searchText)
         }
     }
     
@@ -38,6 +34,7 @@ struct ContentView: View {
         path.append(person)
     }
     
+
 }
 
 #Preview {
