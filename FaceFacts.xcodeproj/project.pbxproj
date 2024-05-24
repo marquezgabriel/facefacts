@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		BA456F9A2BFFACA7001F680B /* PeopleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA456F992BFFACA7001F680B /* PeopleView.swift */; };
+		BA456F9C2BFFE170001F680B /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA456F9B2BFFE170001F680B /* Event.swift */; };
+		BA456F9E2BFFE9FD001F680B /* EditEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA456F9D2BFFE9FD001F680B /* EditEventView.swift */; };
+		BA456FA02C002267001F680B /* Previewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA456F9F2C002267001F680B /* Previewer.swift */; };
 		BA786EB62BFEBC8A00FA9B9F /* FaceFactsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA786EB52BFEBC8A00FA9B9F /* FaceFactsApp.swift */; };
 		BA786EB82BFEBC8A00FA9B9F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA786EB72BFEBC8A00FA9B9F /* ContentView.swift */; };
 		BA786EBA2BFEBC8B00FA9B9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA786EB92BFEBC8B00FA9B9F /* Assets.xcassets */; };
@@ -18,6 +21,9 @@
 
 /* Begin PBXFileReference section */
 		BA456F992BFFACA7001F680B /* PeopleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleView.swift; sourceTree = "<group>"; };
+		BA456F9B2BFFE170001F680B /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		BA456F9D2BFFE9FD001F680B /* EditEventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditEventView.swift; sourceTree = "<group>"; };
+		BA456F9F2C002267001F680B /* Previewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Previewer.swift; sourceTree = "<group>"; };
 		BA786EB22BFEBC8A00FA9B9F /* FaceFacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceFacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA786EB52BFEBC8A00FA9B9F /* FaceFactsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceFactsApp.swift; sourceTree = "<group>"; };
 		BA786EB72BFEBC8A00FA9B9F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,10 +64,13 @@
 			isa = PBXGroup;
 			children = (
 				BA786EB52BFEBC8A00FA9B9F /* FaceFactsApp.swift */,
+				BA456F9D2BFFE9FD001F680B /* EditEventView.swift */,
 				BA786EB72BFEBC8A00FA9B9F /* ContentView.swift */,
 				BA456F992BFFACA7001F680B /* PeopleView.swift */,
 				BA786EC32BFEBD6500FA9B9F /* EditPersonView.swift */,
+				BA456F9F2C002267001F680B /* Previewer.swift */,
 				BA786EC52BFEBD7E00FA9B9F /* Person.swift */,
+				BA456F9B2BFFE170001F680B /* Event.swift */,
 				BA786EB92BFEBC8B00FA9B9F /* Assets.xcassets */,
 				BA786EBB2BFEBC8B00FA9B9F /* Preview Content */,
 			);
@@ -149,8 +158,11 @@
 				BA786EB82BFEBC8A00FA9B9F /* ContentView.swift in Sources */,
 				BA456F9A2BFFACA7001F680B /* PeopleView.swift in Sources */,
 				BA786EB62BFEBC8A00FA9B9F /* FaceFactsApp.swift in Sources */,
+				BA456FA02C002267001F680B /* Previewer.swift in Sources */,
 				BA786EC62BFEBD7E00FA9B9F /* Person.swift in Sources */,
+				BA456F9C2BFFE170001F680B /* Event.swift in Sources */,
 				BA786EC42BFEBD6500FA9B9F /* EditPersonView.swift in Sources */,
+				BA456F9E2BFFE9FD001F680B /* EditEventView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
