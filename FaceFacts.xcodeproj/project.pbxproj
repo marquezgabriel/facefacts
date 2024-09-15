@@ -46,6 +46,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA04E8072C9662E100BCEE79 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BA786EC52BFEBD7E00FA9B9F /* Person.swift */,
+				BA456F9B2BFFE170001F680B /* Event.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BA04E8082C9662EA00BCEE79 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BA786EB72BFEBC8A00FA9B9F /* ContentView.swift */,
+				BA456F992BFFACA7001F680B /* PeopleView.swift */,
+				BA456F9D2BFFE9FD001F680B /* EditEventView.swift */,
+				BA786EC32BFEBD6500FA9B9F /* EditPersonView.swift */,
+				BA456F9F2C002267001F680B /* Previewer.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		BA786EA92BFEBC8A00FA9B9F = {
 			isa = PBXGroup;
 			children = (
@@ -65,16 +86,11 @@
 		BA786EB42BFEBC8A00FA9B9F /* FaceFacts */ = {
 			isa = PBXGroup;
 			children = (
+				BA786EB52BFEBC8A00FA9B9F /* FaceFactsApp.swift */,
+				BA04E8082C9662EA00BCEE79 /* Views */,
+				BA04E8072C9662E100BCEE79 /* Models */,
 				BA456FA22C002E4B001F680B /* Info.plist */,
 				BA456FA12C002B64001F680B /* FaceFacts.entitlements */,
-				BA786EB52BFEBC8A00FA9B9F /* FaceFactsApp.swift */,
-				BA456F9D2BFFE9FD001F680B /* EditEventView.swift */,
-				BA786EB72BFEBC8A00FA9B9F /* ContentView.swift */,
-				BA456F992BFFACA7001F680B /* PeopleView.swift */,
-				BA786EC32BFEBD6500FA9B9F /* EditPersonView.swift */,
-				BA456F9F2C002267001F680B /* Previewer.swift */,
-				BA786EC52BFEBD7E00FA9B9F /* Person.swift */,
-				BA456F9B2BFFE170001F680B /* Event.swift */,
 				BA786EB92BFEBC8B00FA9B9F /* Assets.xcassets */,
 				BA786EBB2BFEBC8B00FA9B9F /* Preview Content */,
 			);
